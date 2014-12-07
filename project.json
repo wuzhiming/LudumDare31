@@ -1,0 +1,27 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": true,
+  "frameRate": 60,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": ["cocos2d", "ccui"],
+  "jsList": [
+    "src/resource.js",
+    "src/common/Common.js",
+    "src/common/AudioManager.js",
+    "src/common/Snake.js",
+    "src/common/Item.js",
+    "src/controller/GameController.js",
+    "src/controller/HeroController.js",
+    "src/controller/EnemyController.js",
+    "src/controller/ItemController.js",
+    "src/person/BasePerson.js",
+    "src/person/Enemy.js",
+    "src/person/EnemyGroup.js",
+    "src/person/Hero.js",
+    "src/person/Skill.js",
+    "src/scene/GameScene.js"
+  ]
+}

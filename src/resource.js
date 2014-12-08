@@ -1,8 +1,5 @@
 var res = {
-    temp_plist: "res/temp.plist",
-    temp_png: "res/temp.png",
     mainbg_jpg: "res/main_bg.jpg",
-    shit_png: "res/shit.png",
     bomb_plist: "res/bomb.plist",
     bomb_png: "res/bomb.png",
     hero_plist: "res/hero.plist",
@@ -14,7 +11,6 @@ var res = {
     attack_wav: "res/attack.wav",
     mainbb_mp3: "res/main_bg.mp3",
     shoot_wav: "res/shoot.wav",
-    gamefail_wav: "res/gamefail.wav",
     item_png: "res/item.png",
     ui_bg: "res/ui_bg.png",
     button1 : "res/button1.png",

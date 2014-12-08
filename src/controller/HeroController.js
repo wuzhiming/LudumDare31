@@ -14,7 +14,7 @@ HeroController.prototype = {
     init: function (controller) {
         this._controller = controller;
         this._runLayer = controller.getGameLayer();
-        var list = [new CycleHero()];
+        var list = [new CycleHero(),new LineHero()];
         this._snake = new Snake(this._runLayer, list);
         this._heroList = this._snake.getHeroList();
         this._enemyList = [];
